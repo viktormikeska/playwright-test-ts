@@ -1,5 +1,4 @@
 import { test } from "@playwright/test";
-import { PerformanceResourceTiming } from "node:perf_hooks";
 
 test("Basic navigation", async ({ page }) => {
   await page.goto("https://gitlab.com");
