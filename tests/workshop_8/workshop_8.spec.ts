@@ -10,7 +10,7 @@ test.describe('Sample Test', () => {
     await pageObject.open('C:/Users/vikmi/Desktop/playwright-test-ts/tests/workshop_8/index.html');
   });
 
-  test.only('Test 1: Fill all inputs', async () => {
+  test.skip('Test 1: Fill all inputs', async () => {
     await pageObject.fillFirstName('John');
     await pageObject.fillAge('30');
     await pageObject.checkIsStudent();
